@@ -9,7 +9,7 @@ using namespace std;
 bool Check_SHT(int N)
 {
     int S = 0;
-    for (int i = 1; i < N; i++)
+    for (int i = 1; i <= N/2; i++)
         if (N % i == 0)
             S += i;  // S = S + i
 
